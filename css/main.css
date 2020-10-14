@@ -1,0 +1,33 @@
+body {background: lightblue;
+  width: device-width;
+
+
+}
+
+.header{
+color: black ;
+font-size: large;
+text-align: center;
+}
+
+.footer{
+color: black; 
+font-size: small;
+text-align: center;
+}
+
+#links{
+padding: 1%;
+display: flex;
+justify-content: space-between;
+justify-content: space-around;
+}
+
+
+a {border: thin solid navy; 
+background-color: blanchedalmond;
+border-radius: 10px; 
+text-decoration: none;
+padding: 5px; 
+font-size: large;
+}

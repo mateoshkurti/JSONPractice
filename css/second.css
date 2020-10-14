@@ -1,0 +1,47 @@
+body {background: lightblue;
+  width: device-width;
+  
+  
+}
+
+.header{
+color:black ;
+font-size: large;
+text-align: center;
+grid-area: "header";
+}
+.footer{
+  color: black; 
+  font-size: small;
+  text-align: center;
+  grid-area: "footer";
+  }
+.back{
+  grid-area: "back";
+}
+.animal{
+      grid-area: "animal";
+  }
+  .subHead{text-align: center;}
+.anim{
+  
+  padding: 1%;
+  display :flex;grid-template-columns: 3fr 1fr;
+  grid-template-rows: auto;
+  
+  grid-template-areas:
+  "aI aImg" 
+  "break break "
+	;
+  gap: 5px;
+  place-items: center;
+  ;
+  }
+.animalInfo{
+  grid-area: aI;
+}
+
+.animalImg{grid-area: aImg;}
+
+.breakLine{grid-area: break;}
+
